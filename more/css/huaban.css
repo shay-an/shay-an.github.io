@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;list-style: none;font-family: '微软雅黑';}
+.cearfix:after{content: "";display: block;clear: both;}
+.clearfix{zoom: 1;}
+body{background: #f7f7f7}
+#top{height:68px;width: 100%;border-bottom: 2px solid #ccc;top: 0;position: static;background: #fff}
+.topbar{width: 100%;height: 68px;display: none}
+.clearfix:after{content: "";display: block;clear: both}
+.clearfix{zoom: 1}
+#top .logo{color: #a30000;padding:5px; float: left;font-size: 22px;font-weight:normal;height: 33px;margin-left: 40px;margin-top: 10px}
+.searchbox{position: relative;width: 586px;height: 36px;margin-top: 10px;float: left;margin-left: 200px;margin-bottom: 20px}
+.searchbox #text{z-index:2;position:relative;color:#ccc;padding-left:5px;background:none;outline:none;float: left;width: 495px;height: 30px;line-height: 30px;border: 3px solid darkorange}
+.searchbox #btn2{font-size:16px;color: #fff;float: left;width: 80px;height: 36px;border:1px solid rgb(230, 126, 0);background: darkorange}
+.searchbox .search-ico{background: url("../image/weterfall/seach.png") no-repeat;width: 12px;height: 13px;position: absolute;left: 13px;top: 12px;}
+.searchbox .cue-txt{position: absolute;left: 28px;top: 10px;color: #ccc;font-size:14px;}
+.content{width: 1152px;margin: 0 auto;}
+.content ul{width: 180px;float: left;margin: 6px}
+.content ul li{background: #f1f1f1;width: 170px;margin: 18px 0;border: 1px solid #ccc;border-radius: 2px;box-shadow: 1px 1px 10px #ccc;}
+.content ul li a{background: #fff;display: block;margin-top: 20px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc}
+.content ul li a img{display: block;width: 160px;height: auto;margin: 5px}
+.content ul li h3{color: #a30000;height: 30px;border-bottom: 1px solid #ccc;background: #dadada;font-size: 16px;font-weight: normal;line-height: 30px;padding: 0 6px}
+.content ul li p{font-size: 14px;line-height:18px;padding:8px 12px;background: #ededed;word-break: break-all}
+.content ul li dl{font-size: 12px;margin-bottom: 20px}
+.content ul li dl dt{color: #a30000;padding: 0 6px;height: 20px;line-height: 20px;font-size: 14px;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;background: #dadada;}
+.content ul li dl dd{padding: 0 8px;line-height: 22px;background: #ededed;border-bottom: 1px dotted #ccc}
+.content ul li dl dd strong{color: #333;}
+#btn{cursor: pointer;outline: none;border-radius: 4px;border: none;display: none;background: rgba(166, 166, 166, 0.4) url("../image/weterfall/upToTop.png") no-repeat center center;width: 40px;height: 40px;position: fixed;right: 20px;bottom: 20px}
+#btn:hover{background-image:url("../image/weterfall/upToTop-h.png") }

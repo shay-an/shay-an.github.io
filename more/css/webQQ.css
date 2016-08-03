@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;list-style: none}
+body{font-family: "微软雅黑"}
+.clearfix:after{content: '';display: block;clear: both}
+.clearfix{zoom: 1}
+#box{width: 300px;height: 200px;margin: 200px auto;border: 1px solid #ccc;position: relative}
+#box .img{width:80px;height:80px;position: absolute;left: 50%;margin-left: -40px;top: -90px}
+#box dt{width: 200px;margin: 10px auto}
+#box dt label{display: block;margin-top: 15px}
+#box dt label span{float: left}
+#box dt label input{width: 200px;height: 30px;float: right}
+#box dd{width: 200px;margin: 10px auto}
+#box dd input{float: left;border: none;background: #0c5bcc;width: 80px;height:30px;margin: 10px;font-size: 20px;color: #fff ;font-family: "微软雅黑"}
+#chart{display:none;width: 700px;height: 500px;border: 1px solid #ccc;margin: 50px auto}
+#chart #left{float: left;width: 500px;border-right: 1px solid #ccc;height: 500px;position: relative}
+#chart #left #msg{width: 500px;height: 320px;border-bottom: 1px solid #ccc;overflow: hidden;overflow-y: scroll;}
+#chart #left #msg li{border-bottom: 1px dashed #cccccc}
+#chart #left #msg li span{font-size: 14px;color: #cccccc}
+#chart #left #msg li em{float: right;font-style: normal;padding-right: 10px;font-size: 14px;color: #cccccc}
+#chart #left #msg li p{line-height: 22px;padding: 5px}
+#left textarea{height: 179px;width: 500px;resize: none;border: none;background: none;font-size: 18px;line-height: 20px}
+#send{width: 80px;height: 30px;background: #0c5bcc;color: #fff;position: absolute;left: 390px;bottom: 20px;border: none}
+#chart #user-list{float: left;width: 199px;overflow: hidden;overflow-y: scroll;height: 500px}
+#chart #user-list li{height: 20px;padding: 5px;border-bottom: 1px dashed #ccc ;width: 189px;line-height: 20px}
+#chart #user-list img{width: 20px;height: 20px;float: left;}
+#chart #user-list span{float: left;padding-left: 5px}
+#exit{position: absolute;left: 20px;top: 20px;width: 80px;height: 30px;background: #0c5bcc;color: #fff;border: none}

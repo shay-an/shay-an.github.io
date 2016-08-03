@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑"}
+		li{list-style: none;}
+		body{background: #dadada}
+		ul{height: 240px;margin: 100px auto;position: relative;width: 920px;overflow: hidden;border: 1px solid #000000}
+		li{height: 240px;width: 670px;position: absolute;border-left: 3px solid #ad606c ;box-shadow:-3px 0 30px #242424  }
+		img{vertical-align: top;width: 670px;height: 240px;}
+        li span{width: 670px;height: 80px;background:rgba(255,255,255,.5);position: absolute;bottom: 0;font-size: 20px;text-shadow: 2px 2px 2px #ccc;text-align: center;line-height: 80px}

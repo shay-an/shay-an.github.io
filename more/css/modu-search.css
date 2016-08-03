@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0;list-style: none;font-family: "微软雅黑"}
+h1{text-indent: -999999px}
+body{background: url("../image/du.png");color: #333}
+.logo{background:url("../image/bd_logo1.png");width: 270px;margin: 40px auto;font-size: 24px;font-weight: normal;color: darkblue;border: 2px dashed #ccc;height: 129px;background-size: cover}
+.logo:hover{box-shadow:5px 5px 5px #cccccc}
+.box{width: 604px;margin: 80px auto;position: relative}
+#btn{color:#fff;border:none;background: #3385ff;border-bottom: 1px solid #2d78f4;position: absolute;right: 0;height: 34px;width: 76px;outline: none;font-size: 16px;}
+#txt{padding-left: 8px;width: 592px;height: 32px;font-size: 16px;outline: none;border: 1px solid #b6b6b6}
+.box ul{box-shadow:0 2px 2px #ccc;background:#fff;width: 602px;border: 1px solid #2d78f4;display: none;border-top: none;position: absolute;top: 34px;}
+.box ul li{height: 25px;line-height: 25px;padding-left: 8px}
+.box ul li.ac{background: dodgerblue;color: white}
+.footer{width: 100%;text-align: center;margin-top: 250px;font-size: 14px;color: #cccccc}
+.footer p{padding: 3px}
+.footer p:hover{text-shadow: 0 1px 1px #ccc}
